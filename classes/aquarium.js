@@ -4,7 +4,7 @@ class Aquarium {
     this.location = location;
   }
 
-  addFish(fish) {
+  addFish() {
 
   }
 
