@@ -20,24 +20,24 @@ describe('Fish', function() {
 
   it.skip('should be able to have a different name, diet, and bright colors status', function() {
     var fish = {
-      name: "Marine Angel Fish",
+      name: "Blood Parrot Cichlid",
       diet: "omnivore",
-      temperament: "territorial",
+      temperament: "peaceful",
       bright: true,
     };
     var bloodParrot = new Fish(fish);
 
-    assert.equal(bloodParrot.name, "Marine Angel Fish");
+    assert.equal(bloodParrot.name, "Blood Parrot Cichlid");
     assert.equal(bloodParrot.diet, "omnivore");
-    assert.equal(bloodParrot.temperament, "territorial");
+    assert.equal(bloodParrot.temperament, "peaceful");
     assert.equal(bloodParrot.brightColors, true);
   });
 
   it.skip('should be able to join a school', function() {
     var fish = {
-      name: "Marine Angel Fish",
+      name: "Blood Parrot Cichlid",
       diet: "omnivore",
-      temperament: "territorial",
+      temperament: "peaceful",
       bright: true,
     };
     var bloodParrot = new Fish(fish);
@@ -51,9 +51,9 @@ describe('Fish', function() {
 
   it.skip('should be able to abandon its school', function() {
     var fish = {
-      name: "Marine Angel Fish",
+      name: "Blood Parrot Cichlid",
       diet: "omnivore",
-      temperament: "territorial",
+      temperament: "peaceful",
       bright: true,
     };
     var bloodParrot = new Fish(fish);
@@ -83,9 +83,9 @@ describe('Fish', function() {
       temperament: "territorial",
       bright: true,
     };
-    var bloodParrot = new Fish(fish);
+    var angelFish = new Fish(fish);
 
-    assert.equal(bloodParrot.swim(), "I'm territorially swimming 🐠");
+    assert.equal(angelFish.swim(), "I'm territorially swimming 🐠");
   });
 
 });
