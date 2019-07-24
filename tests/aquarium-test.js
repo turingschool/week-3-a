@@ -1,5 +1,6 @@
 var assert = require('chai').assert;
 var Aquarium = require('../classes/aquarium');
+var Fish = require('../classes/fish');
 
 describe('Aquarium', function() {
 
