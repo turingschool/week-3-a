@@ -20,7 +20,7 @@ describe('Aquarium', function() {
     assert.equal(downtownDenver.allFish.length, 0);
   });
 
-  it.skip('should start be able to add fish', function() {
+  it.skip('should be able to add fish', function() {
     var fish = {
       name: "Moorish Idol",
       diet: "omnivore",
