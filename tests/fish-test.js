@@ -8,14 +8,14 @@ describe('Fish', function() {
       name: "Marine Angel Fish",
       diet: "omnivore",
       temperament: "territorial",
-      bright: true,
+      bright: false,
     };
     var angelFish = new Fish(fish);
 
     assert.equal(angelFish.name, "Marine Angel Fish");
     assert.equal(angelFish.diet, "omnivore");
     assert.equal(angelFish.temperament, "territorial");
-    assert.equal(angelFish.brightColors, true);
+    assert.equal(angelFish.brightColors, false);
   });
 
   it.skip('should be able to have a different name, diet, and bright colors status', function() {
